@@ -27,7 +27,7 @@ export interface Brand {
 
 async function fetchData<T>(endpoint: string): Promise<T> {
     const url = `${API_BASE_URL}/${endpoint}`;
-    console.log(`Buscando dados em: ${url}`); // DEBUG
+    // console.log(`Buscando dados em: ${url}`); // DEBUG
     
     try {
         const response = await fetch(url);
