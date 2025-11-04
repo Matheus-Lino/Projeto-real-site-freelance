@@ -78,8 +78,7 @@
 
 from mysql.connector import connect, Error
 from mysql.connector.cursor import MySQLCursorDict
-# ESSENCIAL: Adiciona o módulo os para ler variáveis de ambiente
-import os 
+import os # ESSENCIAL: Adicionar o módulo os para ler variáveis de ambiente
 
 # ----------------------------------------------------------------------
 # CORREÇÃO: LÊ AS VARIÁVEIS DE AMBIENTE DO RAILWAY

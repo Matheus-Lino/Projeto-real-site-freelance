@@ -117,7 +117,7 @@ app = Flask(__name__)
 # ----------------------------------------------------------------------
 # CORREÇÃO 1: CONFIGURAÇÃO DE CORS
 # ----------------------------------------------------------------------
-# Lê o domínio do frontend do Vercel de uma variável de ambiente (VERCEL_ORIGIN)
+# Lê o domínio do Vercel da variável que você criou (VERCEL_ORIGIN)
 VERCEL_ORIGIN = os.environ.get('VERCEL_ORIGIN', 'http://localhost:5173') 
 RAILWAY_ORIGIN = os.environ.get('RAILWAY_ORIGIN', 'https://projeto-real-site-freelance-production.up.railway.app') 
 
