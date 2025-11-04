@@ -16,7 +16,7 @@ export function ApiDataTest() {
 
     useEffect(() => {
         // O ENDPOINT DO SEU SERVIDOR FLASK
-        const API_URL = `${import.meta.env.VITE_API_URL}/api/outlet_machado`;
+        const API_URL = `${import.meta.env.VITE_API_URL}/categories`;
 
         fetch(API_URL)
             .then(response => {

@@ -130,7 +130,7 @@ ALLOWED_ORIGINS = [
 ]
 
 # Configuração do CORS: Permite apenas as origens seguras
-CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}}) 
+CORS(app, resources={r"/*": {"origins": "*"}})
 # ----------------------------------------------------------------------
 
 @app.route('/products', methods=['GET'])
